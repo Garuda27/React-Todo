@@ -2,8 +2,8 @@ import React from "react";
 import { Button, Form } from "semantic-ui-react";
 
 class ToDoForm extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
             taskItem: ''
         };
@@ -11,7 +11,7 @@ class ToDoForm extends React.Component {
     }
     handleChange = e => {
         this.setState({
-            [e.target.name]: e.target.calue
+            [e.target.name]: e.target.value
         })
     }
     submitItem = e => {

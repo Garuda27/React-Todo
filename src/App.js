@@ -2,6 +2,7 @@ import React from 'react';
 import ToDoForm from './components/TodoComponents/TodoForm'
 import { Card } from 'semantic-ui-react'
 import TodoList from './components/TodoComponents/TodoList'
+// import taskItem from './components/TodoComponents/TodoForm'
 
 const toDoList = [
   {
